@@ -1,0 +1,33 @@
+.information {
+    width: 343px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(98deg, #23272A 0%, rgba(35, 39, 42, 0.78) 116.21%);
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.information-text {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 19px;
+}
+
+.information-svg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+}
+

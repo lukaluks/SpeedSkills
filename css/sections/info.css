@@ -1,0 +1,40 @@
+.info-description {
+    color: var(--Black-Main, #23272A);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 20px;
+}
+
+.info-span {
+    color: var(--Black-Main, #23272A);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+}
+
+
+.info-text {
+    color: var(--Black-Main, #23272A);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 10px;
+    width: 313px; /*Вибачте я знаю що на текст не можна задавати ширину, але я це зробив для того щоб воно працювало*/
+
+}
+
+.info_span {
+    color: var(--Black-Main, #23272A);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+}

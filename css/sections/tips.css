@@ -1,0 +1,77 @@
+.tips {
+  width: 343px;
+  height: 290px;
+  background: #23272a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  position: relative;
+  background-image: url(../img/liza.jpg);
+  background-repeat: no-repeat;
+  background-size: 125px;
+  background-position-x: right;
+  background-position-y: bottom; 
+ margin-top: 20px;
+}
+
+.tips_item {
+  width: 228px;
+  margin-left: 31px;
+  position: relative;
+}
+
+.tips_item:nth-child(2) {
+  width: 232px;
+}
+
+.tips_item:nth-child(3) {
+  width: 185px;
+}
+
+.tips_item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  left: -16px;
+  top: 21px;
+}
+
+.tips_text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  padding-top: 16px;
+}
+
+.tips_span1 {
+  background-color: red;
+  border-radius: 4px;
+  font-size: px;
+}
+
+.tips_span2 {
+  background-color: red;
+  border-radius: 4px;
+}
+
+.tips_span3 {
+  background-color: red;
+  border-radius: 4px;
+}
+
+.divq {
+  display: flex;
+}
+
+.liza {
+  width: 186px;
+  position: absolute;
+  left: 160px;
+}
+
